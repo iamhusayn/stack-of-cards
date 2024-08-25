@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.home ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px 10px;
+}
+
+.allcards {
+   
+}
+
+.cards1 {
+    background-color: chocolate;
+    border: 2px solid black;
+    border-radius: 10px;
+}
