@@ -10,8 +10,10 @@ html {
 }
 
 body {
-    height: 5000px;
+    /* height: 5000px; */
+    padding-top: 100px;
     padding-bottom: 60px;
+    background-color: cornflowerblue;
 
 }
 
@@ -23,11 +25,11 @@ header {
     align-items: center;
     gap: 10rem;
     font-size: 20px;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    height: 90px; */
+    height: 90px;
     z-index: 1;
 }
 
@@ -42,7 +44,6 @@ nav ul {
 }
 
 .home ul li {
-    /* background-color: bisque; */
     list-style: none;
     display: inline;
     justify-content: center;
@@ -50,7 +51,7 @@ nav ul {
 }
 
 li a {
-    color: bisque;
+    color: #ffffff;
     text-align: center;
     font-weight: 700;
 }
@@ -66,9 +67,10 @@ li a {
 
 .allcards {
     padding: 50px;
-    margin: 50px;
-    border: 2px solid brown;
-    border-radius: 20px;
+    margin: 40px;
+    margin-top: 30px;
+    /* border: 2px solid brown; */
+    /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,34 +79,124 @@ li a {
     /* position: relative; */
 }
 
-
-.cards1 {
+.cards1, .cards2, .cards3, .cards4, .cards5, .cards6 {
+    /* height: 250px;
     border: 2px solid brown;
     border-radius: 20px;
-    background-color: brown;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* position: absolute;
-    top: 110px; */
-
+    display: flex;
+    justify-content: center; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
-/* .club {
-    padding: 10px;
-    text-align: center;
+.cards1wrapper {
+    /* border: 2px solid brown; */
+    /* border-radius: 10px; */
+    width: 830px;
+    height: 200px;
+    max-width: 100%;
+    margin-inline: auto;
+    position: relative;
+    /* margin-top: 10px; */
+    overflow: hidden;
+}
+
+@keyframes scrollleft {
+    to{
+        left: -830px;
+    }
+}
+.club, .club img{
+    width: 150px;
+    height: 200px;
+    /* background-color: rgb(241, 4, 4); */
+    border-radius: 10px;
+    position: absolute;
+    left: 100%;
+    /* gap: 100px; */
+    animation-name: scrollleft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.club0 {
+    animation-delay: calc(30s / 12 * (12 - 1) * -1);
+}
+
+.club1 {
+    animation-delay: calc(30s / 12 * (12 - 2) * -1);
+}
+
+.club2 {
+    animation-delay: calc(30s / 12 * (12 - 3) * -1);
+}
+
+.club3 {
+    animation-delay: calc(30s / 12 * (12 - 4) * -1);
+}
+
+.club4 {
+    animation-delay: calc(30s / 12 * (12 - 5) * -1);
+}
+
+.club5 {
+    animation-delay: calc(30s / 12 * (12 - 6) * -1);
+}
+
+.club6 {
+    animation-delay: calc(30s / 12 * (12 - 7) * -1);
+}
+
+.club7 {
+    animation-delay: calc(30s / 12 * (12 - 8) * -1);
+}
+
+.club8 {
+    animation-delay: calc(30s / 12 * (12 - 9) * -1);
+}
+
+.club9 {
+    animation-delay: calc(30s / 12 * (12 - 10) * -1);
+}
+
+.club10 {
+    animation-delay: calc(30s / 12 * (12 - 11) * -1);
+}
+
+.club11 {
+    animation-delay: calc(30s / 12 * (12 - 12) * -1);
+}
+
+/* .club img{
+    height: 200px;
 } */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cards2 {
-    border: 2px solid brown;
-    border-radius: 20px;
-    background-color: darkkhaki;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    /* position: absolute;
-    top: 1300px; */
-    height: 80%;
+    background-color: rgba(245, 229, 106, 0.637);
 }
 
 /* .spades {
@@ -113,12 +205,7 @@ li a {
 } */
 
 .cards3 {
-    border: 2px solid brown;
-    border-radius: 20px;
-    background-color: darkkhaki;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    background-color: rgb(107, 178, 189);
 }
 
 /* .hearts {
@@ -127,12 +214,7 @@ li a {
 } */
 
 .cards4 {
-    border: 2px solid brown;
-    border-radius: 20px;
-    background-color: darkkhaki;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    background-color: rgba(189, 122, 107, 0.673);
 }
 
 /* .diamonds {
@@ -140,8 +222,19 @@ li a {
     text-align: center;
 } */
 
+.cards5 {
+    background-color: rgba(255, 9, 1, 0.841);
+    
+}
+
+.cards6 {
+    background-color: rgba(101, 120, 54, 0.878);
+}
 
 .footer {
+    /* margin: 0;
+    padding: 0;
+    height: fit-content; */
     border: 10px solid black;
     border-color: darkgoldenrod;
     background-color: forestgreen;
