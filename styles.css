@@ -79,13 +79,13 @@ body {
     /* margin-bottom: 12rem; */
 }
 .card3 {
-    background-color: rgba(251, 127, 255, 0.574);
+    background-color: rgb(251, 127, 255);
     position: sticky;
     top: 16rem;
     /* margin-bottom: 9rem; */
 }
 .card4 {
-    background-color: rgba(158, 185, 21, 0.627);
+    background-color: rgb(158, 185, 21);
     position: sticky;
     top: 19rem;
     /* margin-bottom: 6rem; */
@@ -97,7 +97,7 @@ body {
     /* margin-bottom: 3rem; */
 }
 .card6 {
-    background-color: rgba(240, 15, 26, 0.703);
+    background-color: rgb(240, 15, 26);
     position: sticky;
     top: 25rem;
     margin-bottom: 0rem;
