@@ -23,7 +23,7 @@ body {
 /* Navigation bar */
 .header {
     font-weight: 900;
-    background: rgb(21, 96, 20);
+    background: rgb(108, 153, 107);
     position: sticky;
     top: 0;
     display: flex;
