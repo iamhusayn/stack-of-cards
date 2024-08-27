@@ -12,37 +12,101 @@ html {
 body {
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
 }
 
+.icon a {
+    height: 90px;
+    width: 90px;
+    padding-left: 80px;
+}
+
+/* Navigation bar */
 .header {
-    border-bottom: 2px solid black;
-    font-size: 15px;
-    font-weight: 600;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
+    font-weight: 900;
+    background: rgb(21, 96, 20);
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 40px 8%;
+    z-index: 10;
 }
 
-.home ul li {
+.home a {
     list-style: none;
-    display: inline-block;
+    display: inline;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 10px 10px;
+    gap: 10rem;
+    padding-right: 150px;
 }
 
+/* Stack of Cards */
 .allcards {
-   
+    margin: 0px 20px;
+    text-align: left;
+    height: 100rem;
+    /* gap: 2rem; */
 }
-
-.cards1 {
-    background-color: chocolate;
-    border: 2px solid black;
+.cards h3 {
+    font-size: 25px;
+}
+.cardwrapper {
+    margin: 10rem 15rem;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 45rem;
+}
+.cards {
     border-radius: 10px;
+    height: 20rem;
+    align-content: center;
+    padding: 0px 20px;
+}
+.card1 {
+    background-color: aquamarine;
+    position: sticky;
+    top: 10rem;
+    /* margin-bottom: 15rem; */
+}
+.card2 {
+    background-color: rgb(221, 255, 127);
+    position: sticky;
+    top: 13rem;
+    /* margin-bottom: 12rem; */
+}
+.card3 {
+    background-color: rgba(251, 127, 255, 0.574);
+    position: sticky;
+    top: 16rem;
+    /* margin-bottom: 9rem; */
+}
+.card4 {
+    background-color: rgba(158, 185, 21, 0.627);
+    position: sticky;
+    top: 19rem;
+    /* margin-bottom: 6rem; */
+}
+.card5 {
+    background-color: rgb(255, 217, 127);
+    position: sticky;
+    top: 22rem; 
+    /* margin-bottom: 3rem; */
+}
+.card6 {
+    background-color: rgba(240, 15, 26, 0.703);
+    position: sticky;
+    top: 25rem;
+    margin-bottom: 0rem;
+}
+footer {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 2rem;
 }
