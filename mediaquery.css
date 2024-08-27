@@ -1,0 +1,65 @@
+@media screen and (max-width: 480px) {
+    /* Header */
+    .header {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-evenly; */
+        /* align-items: center; */
+        padding: 20px 10px;
+
+    }
+
+    .icon a {
+        height: 40px;
+        width: 40px;
+        padding-left: 40px;
+    }
+
+    .home a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+
+
+    /* Stack of Cards */
+    .allcards {
+        height: 120rem;
+    }
+
+    .cardwrapper {
+        margin: 5rem 0rem;
+        padding: 2px 5px;
+        gap: 1rem;
+        height: 80rem;
+    }
+
+    .cards {
+        border-radius: 10px;
+        height: 250px;
+    }
+
+    .card1 {
+        top: 8rem;
+    }
+    .card2 {
+        top: 11rem;
+    }
+    .card3 {
+        top: 14rem;
+    }
+    .card4 {
+        top: 17rem;
+    }
+    .card5 {
+        top: 20rem; 
+    }
+    .card6 {
+        top: 23rem;}
+    
+    footer {
+        gap: .5rem;
+    }
+}
